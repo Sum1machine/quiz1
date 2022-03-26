@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id = "quiz1"></p>
+    <script>
+
+       let ctr;
+for(ctr = 1; ctr <= 200; ctr++){
+     
+    if (ctr % 3 == 0 && ctr % 5 == 0){
+        console.log("Undecided");
+        
+    }
+    else if (ctr % 5 == 0){
+        console.log("BongBong");
+        
+    }
+     else if (ctr % 3 == 0){
+        console.log("Leni");
+         
+    }else{
+  console.log(ctr);
+     }
+}  
+        </script>
+    
+</body>
+</html>
